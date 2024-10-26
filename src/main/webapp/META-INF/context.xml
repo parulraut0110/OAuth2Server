@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource name="jdbc/mongoDB"
+              auth="Container"
+              type="com.mongodb.client.MongoClient"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              driverClassName="org.mongodb.driver.MongoDriver"
+              url="mongodb://oauth2serverAdmin:Raut#0110@outh2server:27019/?authSource=admin\u0026authMechanism=SCRAM-SHA-256"/>
+              
+         
+</Context>

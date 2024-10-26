@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+</head>
+<body>
+  <form action = "LoginForm" method = "post">   <!--action implies the name of the servlet to which the form data will be submitted-->
+    <label>Username: </label>
+    <input type = "text" placeholder = "user name" name = "uname"/>
+    <br/>
+    <label>Password: </label>
+    <input type = "password" placeholder = "password" name = "pwd"/>
+    <br/>
+    <input type = "submit" value = "login"/>
+  </form>
+  
+  <form action = "Logout" method = "get">
+	  <input type = "submit" value = "logout"/>
+  </form>
+</body>
+</html>
